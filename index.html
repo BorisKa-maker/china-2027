@@ -36668,7 +36668,7 @@ window.STAYS = [
   "beds_total": 7,
   "sofa_beds": 0,
   "layout": "По данным номера на Trip.com (17.11.2026): \"7 queen beds\", 288 м2, 23 этаж, до 14 взрослых, ванна, вид на море, терраса и балкон в названии. 5 спален указано только в названии номера; как 7 кроватей разложены по спальням и сколько санузлов, Trip.com не показывает",
-  "availability_note": "Календарь сейчас открыт на 103 дней вперед (последний заезд около 2027-02-28). При таком окне заезд 26.03 появится примерно 13.12.2026; если продажи открывают помесячно, возможно на стыке месяцев. Проверено 17.11.2026.",
+  "availability_note": "Trip.com 17.11.2026 (проверено в браузере): на 26.03-03.04.2027 «not currently accepting bookings». Календарь сейчас открыт на 103 дней вперед (последний заезд около 2027-02-28). При таком окне заезд 26.03 появится примерно 13.12.2026; если продажи открывают помесячно, возможно на стыке месяцев. Проверено 17.11.2026.",
   "price_hint": "По первой проверке 17.11.2026: 08-10.12.2026 €428 за 2 ночи с налогами, около €214 за ночь; 8 ночей по такой цене около €1712. Март в сезон, вероятно дороже. Цену повторно получить не удалось (API закрыт антиботом)",
   "together": true,
   "foreigners": "Да. Trip.com: \"Guests from all countries/regions are welcome at this property\"; Ctrip: 接待来自任何国家/地区的客人 (обе страницы проверены 17.11.2026)",
@@ -36807,7 +36807,7 @@ window.STAYS = [
   "sofa_beds": 0,
   "room_type": "Deluxe Suite (id 499332678)",
   "layout": "Trip.com, 17.11.2026: \"5 bedrooms: 5 queen beds and 1 double bed | 1 living room\", 200-230 м², этажи B1-3, вместимость 12, пометка City view. Санузлы не указаны",
-  "availability_note": "Цену и наличие на 26.03-03.04 проверить не удалось (Trip.com закрыл список номеров антиботом). Проверено 17.11.2026, открыть по ссылке.",
+  "availability_note": "Trip.com 17.11.2026 (проверено в браузере): на 26.03-03.04.2027 «This hotel is not currently accepting bookings», то есть продажи на наши даты еще не открыты. Когда откроются, не определено",
   "price_hint": "Цена не получена (17.11.2026)",
   "together": true,
   "foreigners": "Да. Trip.com 17.11.2026: \"Guests from all countries/regions are welcome at this property\"",
@@ -36826,7 +36826,7 @@ window.STAYS = [
   "confidence": "low",
   "why": "Пять спален подтверждены структурированно, 6 кроватей; но от центра далеко",
   "notes": "Понизил уверенность до low: 7,6 км от центра. Фото 17.11.2026: 200 image/jpeg, есть на странице объекта",
-  "availability": "unknown",
+  "availability": "not_open_yet",
   "photos_scope": "room_type",
   "central": true
  },
@@ -36841,7 +36841,7 @@ window.STAYS = [
   "sofa_beds": 0,
   "room_type": "Villa - 5-Room (Pool) (id 361806863)",
   "layout": "Trip.com, 17.11.2026: 5 queen beds, 300 м², этаж 3, вместимость 10. Спальни явно не указаны: в названии \"5-Room\"",
-  "availability_note": "Цену и наличие на 26.03-03.04 проверить не удалось (Trip.com закрыл список номеров антиботом). Проверено 17.11.2026, открыть по ссылке.",
+  "availability_note": "Trip.com 17.11.2026 (проверено в браузере): на 26.03-03.04.2027 «This hotel is not currently accepting bookings», то есть продажи на наши даты еще не открыты. Когда откроются, не определено",
   "price_hint": "Цена не получена (17.11.2026)",
   "together": true,
   "foreigners": "Да. Trip.com 17.11.2026: \"Guests from all countries/regions are welcome at this property\"",
@@ -36860,7 +36860,7 @@ window.STAYS = [
   "confidence": "low",
   "why": "Пять кроватей, бассейн, лучший рейтинг; но западный конец набережной у аэропорта, и пять спален не подтверждены",
   "notes": "Понизил уверенность до low: далеко от центра, \"5-Room\" не равно \"5-Bedroom\". Фото 17.11.2026: 200 image/jpeg, есть на странице объекта",
-  "availability": "unknown",
+  "availability": "not_open_yet",
   "photos_scope": "room_type",
   "central": true
  },
@@ -37144,6 +37144,40 @@ window.STAYS = [
   "notes": "Перепроверка 17.11.2026. Это тот же объект, что 三亚阳光海景公寓 на Booking (Sanya Sun Seaview Apartment): то же китайское название и адрес Ruihai Haoting. В прошлой версии он шел только по Booking; теперь раскладка взята из данных Trip.com по типам номеров. Не дубль stay.json: там в том же комплексе другой оператор (Blue Star Moon, A-3A). Фото: первые 5 из блока типа 282323973 (Designer 4BR), 6-7 из 4800102 (Limited 4BR), 8 из 84197157 (Nordic 4BR); все 8 проверены curl 17.11.2026: 200 image/jpeg. Прежние фото с hotelsinsanya и cf.bstatic тоже отвечают 200 image/webp, но относятся ко всему объекту, поэтому заменены. Доступность и цену проверить в обычном браузере на Trip.com. Из прошлого списка убран Jinmao Sea View Garden 1A-3001 (四室3卫): 4 спальни есть только в названии, кровати ни в одном источнике не нашлись, Booking закрыт WAF, а страница агрегатора с фото называется по-другому (三亚公寓, Jinmao Sea View Garden 8 Haihua), так что фото к этой квартире не подтверждены",
   "availability": "unknown",
   "photos_scope": "room_type",
+  "central": true
+ },
+ {
+  "base": "sy",
+  "name_en": "Laika Boutique Stay (Sanya Bay Coconut Dream Corridor) - Villa with Private Pool",
+  "name_cn": "Laika Boutique Stay（三亚湾椰梦长廊）",
+  "type": "вилла-апартаменты с бассейном",
+  "area": "Западная часть набережной Саньявань, ЖК Vanke Haishang Daduhui Zuo'an (万科海上大都会·左岸), Xincheng Road. Около 9,6 км до старого центра, 15-20 минут на такси; пляж и набережная рядом",
+  "bedrooms": 5,
+  "beds_total": 5,
+  "sofa_beds": 0,
+  "layout": "5 спален, в каждой king-size кровать; 5 санузлов, гостиная, кухня, 450 м², свой бассейн. Максимум 6 гостей (Booking, 17.11.2026)",
+  "availability": "available",
+  "availability_note": "Booking.com, проверено мной в браузере 17.11.2026: на 26.03-03.04.2027 для 6 взрослых свободно, «осталась 1». Бесплатная отмена до 23.03.2027, предоплаты нет, оплата на месте",
+  "price_hint": "€2 841 за 8 ночей с налогами (скидка 10%, без нее €3 157), около €355 за ночь на группу, около €59 с человека. Booking.com, 17.11.2026",
+  "price_usd_night_total": 392.4,
+  "together": true,
+  "foreigners": "Booking.com, бронирование для иностранцев доступно",
+  "rating": "Booking 9,8/10, всего 4 отзыва; локация 10/10",
+  "photos": [
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907968494.jpg?k=8f5c05a97791e6fd79124def35e34020c22f0e063504c439210fb5c4976cdfae&o=",
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907968479.jpg?k=f8ab8519f6e8345347b5842a14d5d283e5d299640118cecd8d9e8235c79d5d19&o=",
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907969823.jpg?k=c1246835d85f2238a5bdbcb927f9dddfcea49efbcb378ea09fc9d778099435bd&o=",
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907970540.jpg?k=fc7b01d9913d04bd459ea02f57109e97702cf0df1e52dcdcd154942d9eb71ab3&o=",
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/907970267.jpg?k=397c574db2f97803c24392f78525aadea0b78730d2563553fbaa8804430546a5&o=",
+   "https://cf.bstatic.com/xdata/images/hotel/max1024x768/908348521.jpg?k=7ee78d33f9161532d9bed03d49b1cc3423194faddf4a716946c1076811e0e18e&o="
+  ],
+  "photos_scope": "room_type",
+  "links": [
+   "https://www.booking.com/hotel/cn/laika-boutique-stay-sanya-bay-coconut-dream-corridor.html?checkin=2027-03-26&checkout=2027-04-03&group_adults=6&no_rooms=1&selected_currency=EUR"
+  ],
+  "confidence": "medium",
+  "why": "Единственный найденный вариант на 5 отдельных спален одним жильем у набережной Саньявань, который можно забронировать уже сейчас, с бесплатной отменой",
+  "notes": "Не старый центр: это западный конец набережной, до рынка 第一市场 и 解放路 нужно такси. Отзывов мало (4). Адрес в карточке «Room 509, Building 4» при площади 450 м² и своем бассейне: перед бронью стоит уточнить у хозяина, что это действительно одна квартира или пентхаус на 5 спален",
   "central": true
  }
 ];
